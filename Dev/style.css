@@ -34,13 +34,35 @@ header nav ul li h1 {
     font-size: 48px;
 }
 
+span {
 
-/*Removed .seo class */
+    color: #d9dcd6;
 
-/*Removed header div { class */
+}
+
+
+/*Removed .seo class, replaced with "span" 
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+*/
+
+/*Removed header div { class 
+    
+    .header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}   
+    */
 
 
 /* Changed div element to nav element */
+
 
 /* Moved (a) selector further up to be in order with other text-only elements.*/
 
@@ -93,7 +115,36 @@ header nav ul li h1 {
     padding: 10px;
 }
 
-/*Condensed classes for SEO, Rep Management, and SMM into one class; "list" */
+/*Condensed classes for SEO, Rep Management, and SMM into one class; "list" 
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+*/
 
 .list {
     margin-bottom: 20px;
@@ -117,4 +168,11 @@ footer {
     text-align: center;
 }
 
-/* Removed .footer 20px text size */
+/* Removed .footer 20px text size
+
+.footer h2 {
+    font-size: 20px;
+}
+
+
+*/
